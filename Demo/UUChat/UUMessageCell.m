@@ -71,7 +71,6 @@
         [self.contentView addSubview:self.btnContent];
         
         [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(UUAVAudioPlayerDidFinishPlay) name:@"VoicePlayHasInterrupt" object:nil];
-
     }
     return self;
 }
